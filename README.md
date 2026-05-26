@@ -1,7 +1,11 @@
-<<<<<<< HEAD
 # Cadastro de Usuarios
 
 Aplicacao web para cadastro, listagem e exclusao de usuarios. O projeto foi desenvolvido com React e Vite, utilizando rotas com React Router, requisicoes HTTP com Axios e estilos com styled-components.
+
+## Preview
+
+![Preview da lista de usuarios](src/assets/lista-photo.png)
+
 
 ## Funcionalidades
 
@@ -127,6 +131,3 @@ http://localhost:5173
 - A API precisa estar em execucao para cadastrar, listar e excluir usuarios.
 - A base URL da API esta configurada em `src/services/api.js`.
 - Os avatares sao gerados automaticamente a partir do nome, email ou id do usuario.
-=======
-
->>>>>>> e1a139bdff7026101c9ad318526988ce0f86912f
