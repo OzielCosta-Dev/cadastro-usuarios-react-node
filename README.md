@@ -1,7 +1,10 @@
-<<<<<<< HEAD
+
 # Cadastro de Usuarios
 
 Aplicacao web para cadastro, listagem e exclusao de usuarios. O projeto foi desenvolvido com React e Vite, utilizando rotas com React Router, requisicoes HTTP com Axios e estilos com styled-components.
+
+# Preview
+![Projeto Cadastro de Usuários](./assets/lista-photo.png)
 
 ## Funcionalidades
 
