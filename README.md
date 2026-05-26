@@ -3,9 +3,6 @@
 
 Aplicacao web para cadastro, listagem e exclusao de usuarios. O projeto foi desenvolvido com React e Vite, utilizando rotas com React Router, requisicoes HTTP com Axios e estilos com styled-components.
 
-# Preview
-<img src="./assets/lista-photo.png" width="700"/>
-
 ## Funcionalidades
 
 - Cadastro de usuarios com nome, idade e email.
