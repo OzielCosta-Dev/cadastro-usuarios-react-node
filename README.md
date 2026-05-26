@@ -1,26 +1,22 @@
-<<<<<<< HEAD
-=======
+# Cadastro de Usuários 🚀
 
->>>>>>> 84dbb8c45f67d293b11742145f4c935bfbbde567
-# Cadastro de Usuarios
+Aplicação web para cadastro, listagem e exclusão de usuários. O projeto foi desenvolvido com React e Vite, utilizando rotas com React Router, requisições HTTP com Axios e estilos com styled-components.
 
-Aplicacao web para cadastro, listagem e exclusao de usuarios. O projeto foi desenvolvido com React e Vite, utilizando rotas com React Router, requisicoes HTTP com Axios e estilos com styled-components.
+## Preview 👀
 
-## Preview
-
-![Preview da lista de usuarios](src/assets/lista-photo.png)
+![Preview da lista de usuários](src/assets/lista-photo.png)
 
 
-## Funcionalidades
+## Funcionalidades ✨
 
-- Cadastro de usuarios com nome, idade e email.
-- Listagem de usuarios cadastrados.
-- Exclusao de usuarios com atualizacao imediata da interface.
-- Navegacao entre tela de cadastro e tela de listagem.
-- Avatar automatico para cada usuario usando DiceBear.
-- Interface responsiva para desktop e dispositivos menores.
+- 📝 Cadastro de usuários com nome, idade e email.
+- 📋 Listagem de usuários cadastrados.
+- 🗑️ Exclusão de usuários com atualização imediata da interface.
+- 🔀 Navegação entre tela de cadastro e tela de listagem.
+- 🖼️ Avatar automático para cada usuário usando DiceBear.
+- 📱 Interface responsiva para desktop e dispositivos menores.
 
-## Tecnologias
+## Tecnologias 🛠️
 
 - React
 - Vite
@@ -29,7 +25,7 @@ Aplicacao web para cadastro, listagem e exclusao de usuarios. O projeto foi dese
 - Styled-components
 - ESLint
 
-## Estrutura Principal
+## Estrutura Principal 📁
 
 ```txt
 src/
@@ -47,16 +43,16 @@ src/
   main.jsx
 ```
 
-## Rotas da Aplicacao
+## Rotas da Aplicação 🧭
 
-| Rota | Descricao |
+| Rota | Descrição |
 | --- | --- |
-| `/` | Tela de cadastro de usuarios |
-| `/lista-de-usuarios` | Tela com a lista de usuarios cadastrados |
+| `/` | Tela de cadastro de usuários |
+| `/lista-de-usuarios` | Tela com a lista de usuários cadastrados |
 
-## API
+## API 🔌
 
-A aplicacao consome uma API local configurada em:
+A aplicação consome uma API local configurada em:
 
 ```js
 http://localhost:3000
@@ -87,9 +83,9 @@ Operacoes utilizadas:
 | `POST` | `/usuarios` | Cadastra um novo usuario |
 | `DELETE` | `/usuarios/:id` | Remove um usuario |
 
-## Como Rodar o Projeto
+## Como Rodar o Projeto ▶️
 
-Clone o repositorio:
+Clone o repositório:
 
 ```bash
 git clone <url-do-repositorio>
@@ -101,7 +97,7 @@ Acesse a pasta do projeto:
 cd devclub-cadastro-usuarios
 ```
 
-Instale as dependencias:
+Instale as dependências:
 
 ```bash
 npm install
@@ -109,7 +105,7 @@ npm install
 
 Inicie a API local na porta `3000`.
 
-Depois, rode a aplicacao:
+Depois, rode a aplicação:
 
 ```bash
 npm run dev
@@ -121,17 +117,17 @@ Acesse no navegador:
 http://localhost:5173
 ```
 
-## Scripts Disponiveis
+## Scripts Disponíveis 🧾
 
-| Comando | Descricao |
+| Comando | Descrição |
 | --- | --- |
 | `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Gera a versao de producao |
-| `npm run preview` | Executa uma previa da build |
-| `npm run lint` | Analisa o codigo com ESLint |
+| `npm run build` | Gera a versão de produção |
+| `npm run preview` | Executa uma prévia da build |
+| `npm run lint` | Analisa o código com ESLint |
 
-## Observacoes
+## Observações ⚠️
 
-- A API precisa estar em execucao para cadastrar, listar e excluir usuarios.
-- A base URL da API esta configurada em `src/services/api.js`.
-- Os avatares sao gerados automaticamente a partir do nome, email ou id do usuario.
+- 🔁 A API precisa estar em execução para cadastrar, listar e excluir usuários.
+- 🔗 A base URL da API está configurada em `src/services/api.js`.
+- 👥 Os avatares são gerados automaticamente a partir do nome, email ou id do usuário.
